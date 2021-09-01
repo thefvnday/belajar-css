@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Laporan CSS</title>
+        <link rel="stylesheet" type="text/css" href="konten.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="container">
+                <header><center>Laprak DesWeb "CSS"</center></header>
+
+                <div id="content">
+                <div id="single">
+                    <h1><center>Nav / Navigasi</center></h1>
+                   
+<h2>Pendahuluan</h2>
+<p>
+	HTML memiliki beberapa element, salah satunya yaitu nav. Nav adalah element pada HTML yang dibuat untuk mempresentasikan link navigasi. Bisa dibilang, nav adalah wadah dari link yang akan men direct kita ke halaman lain. Tetapi link yang berada pada element nav biasanya adalah link major yang merujuk kepada halaman lain pada website kita. Misalkan menunjukan link halaman utama,gallery dll.  
+</p>
+<h2>Codingan</h2>
+
+<xmp>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Membuat Nav</title>
+	<link rel="stylesheet" type="text/css" href="nav-style.css">
+	<link rel="stylesheet" type="text/css" href="shadow-style.css">
+</head>
+<body>
+	<nav class="nav">
+		<div class="title">
+			<a href="#"OneNav></a>
+		</div>
+		<ul>
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="#">Portofolio</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contacts</a></li>
+		</ul>
+	</nav>
+		<div class="card">
+		<div class="card-content">
+			<h2 class="card-title">APA ITU NAV?</h2>
+			<p>
+			HTML memiliki beberapa element, salah satunya yaitu nav. Nav adalah 
+			element pada HTML yang dibuat untuk mempresentasikan link navigasi. 
+			Bisa dibilang, nav adalah wadah dari link yang akan men direct kita 
+			ke halaman lain. Tetapi link yang berada pada element nav biasanya 
+			adalah link major yang merujuk kepada halaman lain pada website kita. 
+			Misalkan menunjukan link halaman utama,gallery dll.  
+			</p>
+		</div>
+	</div>
+</body>
+</html>
+</xmp>
+<h2>Kode CSS Eksternal</h2>
+<xmp>
+<h2>nav-style.css</h2>
+	*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.nav{
+	width: 100%;
+	background-color: #20b2aa;
+	float: left;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 0 0 6px #999999;
+}
+.nav title{
+	float: left;
+	font-size: 28px;
+	padding: 10px 16px;
+}
+.nav .title a{
+	text-decoration: : none;
+	color: #FFFFFF;
+}
+.nav ul{
+	float: right;
+}
+.nav ul li{
+	display: blok;
+	float: left;
+	padding: 18px 0px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 20px 16px;
+	font-size: 14px;
+}
+.nav li a:hover{
+	background: rgba(0,0,0,1);
+}
+.nav li a.active{
+	background: rgba(0,0,0,2);
+	
+}
+
+
+
+
+<h2> shadow-style</h2>
+	*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+
+	padding:30px 50px 10px 600px;
+}
+.card{
+	width: 60%;
+	height:auto;
+	margin: 100px 30px 40px 290px;
+	background-color: #FFFFFF;
+	border: solid thin #DDDDDD;
+	box-shadow: 0 0 6px #999999;
+	float: left;
+}
+.card .card-title{
+	font-size: 30px;
+	font-weight: normal;
+	color: #FF6D00;
+}
+.card .card-content{
+	padding: 15px;
+	font-size: 14px;
+	line-height: 1.6;
+}
+</xmp>
+<h2>Hasil Screenshot</h2>
+<img src="img/sc11.png" hspace="20" vspace="20" align="top" width="500" height="320" alt="heading" />
+
+
+<h2>Analisis</h2>
+<p>Pada percobaan membuat nav kali ini jika sesaui modul akan mendapatkan hasil seperti diatas, dimana posisi nov  berbentuk balok denga memanjak kekanan, berada pada posisi paling atas dari halaman web. Untuk mengurangi ruang kosong yang terlalu banyak saya menambahkan konten berupa box shadow. Namun ini isi dari box shadow berbeda dengan yang ada digambar karena ketika paragraf dimasukkan dalam halaman ini terjadi error berupa tulisan memanjang kekanan.</p>
+                </div>
+                <a href="index.html" > <img src="img/back.png"hspace="2"vspace="2"align="left"width="40"height="40"alt="back"/></a>
+            
+                </div>
+                
+            </div>
+        </div>
+        
+    </body>
+</html>

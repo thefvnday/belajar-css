@@ -1,0 +1,28 @@
+.container{
+	width: 80%;
+	margin: 5% 10%;
+	
+}
+.cirlce{
+	width: 40px;
+	height: 40px;
+	margin: 10px 5px;
+	background: #20B2AA;
+	border: solid thin transparent;
+	border-radius: 100%;
+	font-size: 15px;
+	font-weight: 600;
+	float: left;
+	color: #FFFFFF;
+	text-align: center;
+}
+.cicrle p{
+	margin-top: 10px;
+
+}
+.circle:hover{
+	background: #FFFFFF;
+	color: #20B2AA;
+	border: solid thin #20B2AA;
+	cursor: pointer;
+}

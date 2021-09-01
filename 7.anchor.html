@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Laporan CSS</title>
+        <link rel="stylesheet" type="text/css" href="konten.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="container">
+                <header><center>Laprak DesWeb "CSS"</center></header>
+
+                <div id="content">
+                <div id="single">
+                    <h1><center>Anchor Pseudo-Class</center></h1>
+                   
+<h2>Pendahuluan</h2>
+<p>
+Anchor Pseudo-class adalah untuk mendefinisikan status khusus pada elemen anchor/link. Ada beberapa  keadaan ketika anchor digunakan. Diantaranya sebagai berikut.
+</p>
+<ol>
+	<li>a:link = Keadaan awal dari sebuah link</li>
+	<li>a:hover= Keadaan dimana sebua link ditunjuk oleh kursor mouse</li>
+	<li>a:active= Keadaan dimana link sedang aktif</li>
+	<li>a:visited= Keadaan dimana link sudah pernah dikunjungi</li>
+</ol>
+<h2>Codingan</h2>
+
+<xmp>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewsport" content="width=device-width, initial-scale=1.0">
+	<title>laporan css</title>
+	<link rel="stylesheet" type="text/css" href="a-pseudoclass.css">
+</head>
+<body>
+	<h1><center>ANCHOR PSEUDO-CLASS</center></h1>
+	<div class="links">
+		<ul>
+			<li><a href="7.anchor.html">a:link</a></li>
+			<li><a href="7.anchor.html">a:hover</a></li>
+			<li><a href="7.anchor.html">a:active</a></li>
+			<li><a href="7.anchor.html">a:visited</a></li>
+		</ul>
+		
+	</div>
+</body>
+</html>
+</xmp>
+
+<h2>Kode CSS Internal</h2>
+<xmp>
+    * {width: 80%; margin: 5%; 10%; padding:0;}
+.links ul{
+	width: 200px;
+	background: #EEEEEE;
+	list-style: none;
+.links ul li{
+	width: 200px;
+	background:#20b2aa;
+	padding:10px;
+}
+.links a {
+	text-decoration:none;
+	color: #000000;
+	padding: 10px;
+}
+.links li a:active{background:red;}
+.links li a:visited{background:green;}
+.links li a:hover{background:blue;}
+.links li a:link{background:pink;}
+</xmp>
+
+<h2>Hasil Screenshot</h2>
+<img src="img/sc7.png" hspace="20" vspace="20" align="top" width="500" height="320" alt="heading" />
+
+
+<h2>Analisis</h2>
+<p>Pada percobaan membuat anchor psudoclass kali ini kita dapat mengetahui status link apakah link tersebut aktif atau pernah dikunjungi.</p>
+                </div>
+                <a href="index.html" > <img src="img/back.png"hspace="2"vspace="2"align="left"width="40"height="40"alt="back"/></a>
+            
+                </div>
+                
+            </div>
+        </div>
+        
+    </body>
+</html>

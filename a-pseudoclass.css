@@ -1,0 +1,22 @@
+* {width: 80%; margin: 5% 10%; padding:0;}
+.links ul{
+	width: 200px;
+	background: #EEEEEE;
+	list-style: none;
+
+}
+.links ul li{
+	width: 200px;
+	background:#20b2aa;
+	padding:10px;
+
+}
+.links a {
+	text-decoration:none;
+	color: #000000;
+	padding: 10px;
+}
+.links li a:active{background:red;}
+.links li a:visited{background:green;}
+.links li a:hover{background:blue;}
+.links li a:link{background:pink;}

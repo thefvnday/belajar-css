@@ -1,0 +1,21 @@
+body{
+	background: #F5F5F5;
+}
+.container{
+	width: 80%;
+	margin:0% 10%;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+th{
+	background-color: #EEEEEE;
+}
+td, th{
+	padding: 10px 5px;
+	border:solid thin #CCCCCC;
+}
+tr, td{
+	background: #FFFFFF;
+}
